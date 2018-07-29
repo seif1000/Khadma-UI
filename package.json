@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "bootsrap workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "benmazouz seifeddine",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "countup": "^1.8.2",
+    "countup.js": "^1.9.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}

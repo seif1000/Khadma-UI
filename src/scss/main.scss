@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Knewave|Nunito|Ubuntu');
+$hchichi:#00b33c;
+body{
+    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Knewave', cursive !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    margin-top:150px;
+  
+    overflow-x: hidden;
+   
+  
+}
+.nav-item{
+    font-size: 18px
+}
+.navbar-brand{
+   
+    font-size: 32px;
+    z-index: 100;
+}
+.navbar{
+     opacity: 0.9;
+   background: #fff;
+   box-shadow: 2px 2px 5px #f0f0f5;
+   .btn{
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius: 5px
+
+}
+}
+
+
+
+#showcase{
+    .btn{
+        border-radius: 5px
+        
+    }
+    #btnAnim{
+        transition: 0.5s;
+        position: relative;
+    }
+    #btnAnim:after{
+        content: "\00bb";
+        position: absolute;
+        right: -20px;
+        opacity: 0;
+        transition: 0.5s;
+        font-size: 20px
+        
+        
+    }
+    .btn:hover #btnAnim{
+        padding-left: 5px
+    }
+    .btn:hover #btnAnim:after{
+         opacity: 1;
+    }
+    
+    
+   
+ 
+    
+
+}
+#work{
+    .fa{
+        font-size: 50px;
+        color: green;
+    }    
+}
+
+.conta{
+    width: 80%;
+    margin: auto;
+
+}
+    
+    #how{
+        background: $hchichi;
+       
+        
+        button{
+            padding: 0.7rem 1rem;
+            border: none;
+            background: darken($color: $hchichi, $amount: 10);
+            box-shadow: 0px 2px 5px darken($color:$hchichi, $amount: 15);
+            border-radius: 5px
+
+        }
+    }
+    #approach{
+        .fa{
+            font-size:100px;
+            color: green;
+
+        }
+    }
+    #other{
+       
+        .fa{
+            font-size: 1em
+        }
+        .card{
+            background: #fff !important;
+            border-color:transparent  !important;
+
+        }
+        .card-header{
+            background: #fff !important;
+            border-color:transparent  !important;
+
+        }
+    }
+    #fixed{
+        position: fixed;
+        left: 95%;
+        bottom: 50px;
+        opacity: 0;
+        transition: 0.8s;
+       
+        
+      
+        cursor: pointer;
+     
+        .fa{
+            color: white;
+            font-size: 40px;
+            background: #00cc66;
+            border-radius: 5px;
+            padding: 7px 11px;
+           
+        }
+        .fa:hover{
+            background: darken($color: #00cc66, $amount: 10)
+        }
+      
+
+    }
+    #slider{
+        background: #66b3ff;
+        width: 100%;
+        .full-card{
+            background: #66b3ff;
+            position: relative;
+        }
+       
+        .slid{
+            position: absolute;
+            top: 50%;
+            cursor: pointer;
+            
+            
+        }
+        .fa{
+            color: #fff;
+            
+        }
+        .slid-left{
+            left:-100px
+        }
+        .slid-right{
+            right: -100px;
+            z-index: 1
+        }
+       
+        .bar{
+            height: 10px;
+            width: 30px;
+            
+            background:#ffff;
+            margin-bottom: 8px;
+           
+        }
+
+    }
+
+    @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+      
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn 0.5s ease-in 1 forwards;
+      }
+      @media (max-width:400px){
+          #fixed{
+              display: none
+          }
+      }
+
+
+

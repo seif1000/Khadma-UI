@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Knewave|Nunito|Ubuntu");
+body {
+  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Knewave', cursive !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  margin-top: 150px;
+  overflow-x: hidden; }
+
+.nav-item {
+  font-size: 18px; }
+
+.navbar-brand {
+  font-size: 32px;
+  z-index: 100; }
+
+.navbar {
+  opacity: 0.9;
+  background: #fff;
+  box-shadow: 2px 2px 5px #f0f0f5; }
+  .navbar .btn {
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius: 5px; }
+
+#showcase .btn {
+  border-radius: 5px; }
+
+#showcase #btnAnim {
+  transition: 0.5s;
+  position: relative; }
+
+#showcase #btnAnim:after {
+  content: "\00bb";
+  position: absolute;
+  right: -20px;
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 20px; }
+
+#showcase .btn:hover #btnAnim {
+  padding-left: 5px; }
+
+#showcase .btn:hover #btnAnim:after {
+  opacity: 1; }
+
+#work .fa {
+  font-size: 50px;
+  color: green; }
+
+.conta {
+  width: 80%;
+  margin: auto; }
+
+#how {
+  background: #00b33c; }
+  #how button {
+    padding: 0.7rem 1rem;
+    border: none;
+    background: #00802b;
+    box-shadow: 0px 2px 5px #006722;
+    border-radius: 5px; }
+
+#approach .fa {
+  font-size: 100px;
+  color: green; }
+
+#other .fa {
+  font-size: 1em; }
+
+#other .card {
+  background: #fff !important;
+  border-color: transparent  !important; }
+
+#other .card-header {
+  background: #fff !important;
+  border-color: transparent  !important; }
+
+#fixed {
+  position: fixed;
+  left: 95%;
+  bottom: 50px;
+  opacity: 0;
+  transition: 0.8s;
+  cursor: pointer; }
+  #fixed .fa {
+    color: white;
+    font-size: 40px;
+    background: #00cc66;
+    border-radius: 5px;
+    padding: 7px 11px; }
+  #fixed .fa:hover {
+    background: #00994d; }
+
+#slider {
+  background: #66b3ff;
+  width: 100%; }
+  #slider .full-card {
+    background: #66b3ff;
+    position: relative; }
+  #slider .slid {
+    position: absolute;
+    top: 50%;
+    cursor: pointer; }
+  #slider .fa {
+    color: #fff; }
+  #slider .slid-left {
+    left: -100px; }
+  #slider .slid-right {
+    right: -100px;
+    z-index: 1; }
+  #slider .bar {
+    height: 10px;
+    width: 30px;
+    background: #ffff;
+    margin-bottom: 8px; }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards; }
+
+@media (max-width: 400px) {
+  #fixed {
+    display: none; } }
