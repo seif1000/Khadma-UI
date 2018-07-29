@@ -1,4 +1,5 @@
-# Khadma-UI a home page for jobe seekers website with html,bootstrap4,css,sass,javascript,and gulp.js task runner
+# Khadma-UI
+### a home page for jobe seekers website with html,bootstrap4,css,sass,javascript,and gulp.js task runner
 
 ## getting started
 ``` npm install ```
